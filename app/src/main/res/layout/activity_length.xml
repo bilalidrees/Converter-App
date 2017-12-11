@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="35dp"
+    android:layout_marginRight="35dp"
+    tools:context="com.example.minhanh.converter.Length">
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textColor="@color/darkBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Length Converter"
+        android:gravity="center"
+        android:textSize="22sp"/>
+    <EditText
+        android:id="@+id/etInputLength"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter value "
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnCmtoInch"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@color/blue"
+        android:text="Centimeters to Inches " />
+
+    <Button
+        android:id="@+id/btnInchtoCm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:textColor="@android:color/white"
+        android:background="@color/blue"
+        android:textAllCaps="false"
+        android:text="Inches to Centimeters" />
+
+    <Button
+        android:id="@+id/btnMetertoFeet"
+        android:layout_marginTop="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@color/blue"
+        android:textAllCaps="false"
+        android:text="Meters to Feet" />
+
+    <Button
+        android:id="@+id/btnFeetToMeter"
+        android:layout_marginTop="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@color/blue"
+        android:textAllCaps="false"
+        android:text="Feet to meters" />
+
+    <Button
+        android:id="@+id/btnKmtoMiles"
+        android:layout_marginTop="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@color/blue"
+        android:textAllCaps="false"
+        android:text="Kilometers to Miles" />
+
+    <Button
+        android:id="@+id/btnMilesToKm"
+        android:layout_marginTop="13dp"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:background="@color/blue"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Miles to Kilometers" />
+
+    <TextView
+        android:id="@+id/tvOutputLength"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+</LinearLayout>

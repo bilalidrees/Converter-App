@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="35dp"
+    android:layout_marginRight="35dp"
+    tools:context="com.example.minhanh.converter.Temperature">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="@color/darkBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperature Converter"
+        android:gravity="center"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:id="@+id/etInputTemp"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter value "
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnCtoF"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@color/blue"
+        android:textAllCaps="false"
+        android:text="Celsius to Fahrenheit" />
+    <Button
+        android:id="@+id/btnFtoC"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@color/blue"
+        android:text="Fahrenheit to Celsius" />
+
+    <TextView
+        android:id="@+id/tvOutputTemp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+
+</LinearLayout>
