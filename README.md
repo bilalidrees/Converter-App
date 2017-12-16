@@ -7,3 +7,7 @@ Allows user to
 - choose the initial and final units (e.g. Fahrenheit to Celcius, lbs to kg...)
 
 Then displays the converted value
+
+<img src="https://github.com/nminnie/Converter-App/blob/master/preview/Converter1.PNG" align="left" width="270" height="500">
+<img src="https://github.com/nminnie/Converter-App/blob/master/preview/Converter2.PNG" width="270" height="500">
+
